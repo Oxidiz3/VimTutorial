@@ -1,0 +1,63 @@
+KEY==========================================================
+	() = user input
+	<C-()> = ctrl + user input
+	<VimMovement.txt> = file name
+		press (g)et (f)ile when hovering over file name
+
+	-most commands can be chained or multiplied by numbers
+		10j - move down 10 times
+		(d)(t)(a) - delete to "a"
+
+	capital letters are important
+=============================================================
+
+Any command that changes your block cursor into a line will put you in insert mode
+press ESC to exit. I have my CAPSLOCK key mapped to ESC, I strongly recommend you 
+do the same
+
+==Basic==
+	(i)nsert = insert text before the cursor
+	(a)ppend = append text after cursor
+	(r)eplace = replace character and exit insert mode
+
+	(I)NSERT = insert text before line
+	(A)PPEND = APPEND text after the line
+	(R)EPLACE = REPLACE and keep replacing
+
+	(u)ndo = undo last change
+	<C-r>edo = redo last undo
+	(.) = repeat last action between insert mode and escape
+
+	(o) = new line below cursor
+	(O) = new line above cursor
+
+	(y)anking is copying
+		(y)(y)ank = yank entire line
+		(y)(MOVEMENT MODIFIER) = yank to whatever the modifier says
+	
+	(x) = delete underneath cursor
+
+	(d)elete
+		(d)(d)elete = delete line and save to register
+		(d)(MOVEMENT MODIFIER) = yank to whatever the modifier says
+	
+
+==Advanced==
+	/%s/(target)/(change) = find and replace
+		vs code does this way better with most names, with cursor on word press F2
+
+	<C-a> - number plus one 
+	<C-x> - number minus one
+	
+	<C-w> - delete previous word // only in insert mode
+
+	===MOVEMENT MODIFIERS===
+		these include most of the commands you learned in the
+		<VimMovement.txt> section
+		
+		(d)(w)ord = (d)elete word
+		(y)() = (y)ank this line and line below
+		(d)(e)nd = (d)elete end
+		(y)(t)o (e) = (y)ank characters up (t)o "e"
+
+<VimTutorial.txt>

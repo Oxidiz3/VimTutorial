@@ -1,0 +1,29 @@
+KEY==========================================================
+	() = user input
+	<C-()> = ctrl + user input
+	<VimMovement.txt> = file name
+		press (g)et (f)ile when hovering over file name
+
+	-most commands can be chained or multiplied by numbers
+		10j - move down 10 times
+		(d)(t)(a) - delete to "a"
+
+	capital letters are important
+=============================================================
+
+Instructions
+	go through each file in order. Learn the basic section then 
+	go to next file in series. When you're all done with basic
+	commands go onto the advanced commands
+
+
+==Movement==
+	<VimMovement.txt>
+==Command==
+	<VimCommand.txt>
+==Editing Text==
+	<VimEditing.txt>
+==Visual Select==
+	<VimVisualSelect.txt>
+==VSCode hacks==
+	<VimVSCode.txt>

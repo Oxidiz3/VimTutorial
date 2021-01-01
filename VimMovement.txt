@@ -1,0 +1,59 @@
+KEY==========================================================
+	() = user input
+	<C-()> = ctrl + user input
+	<VimMovement.txt> = file name
+		press (g)et (f)ile when hovering over file name
+
+	-most commands can be chained or multiplied by numbers
+		10j - move down 10 times
+		(d)(t)(a) - delete to "a"
+
+	capital letters are important
+=============================================================
+
+
+===Basic===
+	hjkl - basic movement 
+		h - Left 
+		j - down
+		k - Up
+		l - right
+
+	====Word Movement====
+	(w)ord - move forward to beginning of word
+	(e)nd - move to end of word
+	(b)ack - move back one word
+	
+	====File Movement====
+	(G) - jump to end of file
+	(g)(g) - jump to beginning of file
+	(:)(42) - go to line 42  //This is a <VimCommand.txt> which we will cover later
+
+
+
+===Advanced===
+	(W)ORD - move forward until whitespace 
+	(B)ACK - move back until whitespace
+
+	====Editor====
+		(g)oto (t)ab = go to next tab
+		(g)(T) = go to previous tab
+	
+	====Searching====
+		(/)(word) - find next (word) in file
+		(?)(word) - finds last (word) in file
+
+		(n) - next word in search
+		(N) - previous word in search
+
+		(f)ind (a) - go forward to next (a)
+		(F)IND ()- go back to the next (a)
+
+		(g)oto (f)ile - goes to file under cursor
+		(g)oto (d)efinition - goes to definition under cursor, even across files
+
+	====Book marking====
+		(m)(1) - mark position as (1)
+		(')(1) - return to mark (1)
+		(')(.) - return to last edited line
+		(')(') - return to where you were before jump

@@ -1,0 +1,28 @@
+KEY==========================================================
+	() = user input
+	<C-()> = ctrl + user input
+	<VimMovement.txt> = file name
+		press (g)et (f)ile when hovering over file name
+
+	-most commands can be chained or multiplied by numbers
+		10j - move down 10 times
+		(d)(t)(a) - delete to "a"
+
+	capital letters are important
+=============================================================
+
+(v) - visual select
+(V) - visual select by line
+<C-v> - visual select by block
+
+Once in Visual Select mode
+	(y)ank
+	(d)elete
+	(I)nsert - will insert on all the lines you've selected 
+	(>) - indent to the right
+	(<) - indent to the left
+
+
+
+
+<VimTutorial.txt>

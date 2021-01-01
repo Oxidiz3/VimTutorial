@@ -1,0 +1,16 @@
+
+	(S)urround - in visual select mode
+	(c)hange (s)urround ({) - change surround to ({)
+	(y)ou (s)urround - surround with motion
+	
+	Copied from vscodevim extension page
+		(g)oto (d)efinition - jump to definition.
+		(g)et (h)elp - equivalent to hovering your mouse over wherever the cursor is. Handy
+						for seeing types and error messages without reaching for the mouse!
+		(g)(q) - on a visual selection reflow and wordwrap blocks of text,
+				 preserving commenting style. Great for formatting documentation
+				 comments.
+		(a)(f) - visual mode command which selects increasingly large blocks of text.
+				For example, if you had "blah (foo [bar 'ba|z'])" then it would select
+				'baz' first. If you pressed af again, it'd then select [bar 'baz'], and
+				if you did it a third time it would select "(foo [bar 'baz'])".

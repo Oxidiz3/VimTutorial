@@ -1,0 +1,29 @@
+KEY==========================================================
+	() = user input
+	<C-()> = ctrl + user input
+	<VimMovement.txt> = file name
+		press (g)et (f)ile when hovering over file name
+
+	-most commands can be chained or multiplied by numbers
+		10j - move down 10 times
+		(d)(t)(a) - delete to "a"
+
+	capital letters are important
+=============================================================
+
+(:) - beginning of every command
+	what your typing will show up in the bottom of your screen
+
+FILE COMMANDS
+	(:e)dit - edit/open file 
+	(:w)rite - write the file
+	(:x)exit - exit and save file
+	(:q)uit - quit vim or exit file in vscode
+
+	(:marks) - list all current marks
+
+(:42) - go to line 42 in your code
+
+
+
+<VimTutorial.txt>
